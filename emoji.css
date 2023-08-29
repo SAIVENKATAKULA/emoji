@@ -1,0 +1,184 @@
+body{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    animation-name: box;
+    margin-top: 100px;
+}
+.h1{
+    border-color: aliceblue;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.face{
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    background-color: yellow;
+    
+}
+.eye1{
+    height: 70px;
+    width: 60px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    top: 70px;
+    left: 50px;
+}
+.eye11{
+    height: 40px;
+    width: 35px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(89, 89, 211);
+    bottom: 7px;
+    left: 15px;
+}
+.eye21{
+    height: 25px;
+    width: 20px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: black;
+    bottom: 13px;
+    left: 23px;
+}
+.eye31{
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    bottom: 28px;
+    left: 25px;
+}
+.eye41{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px solid;
+    top: -7px;
+    left: -18px;
+}
+.eye2{
+    height: 70px;
+    width: 60px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    bottom: 1px;
+    left: 80px;
+}
+.eye12{
+    height: 40px;
+    width: 35px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(89, 89, 211);
+    bottom: 7px;
+    left: 15px;
+}
+.eye22{
+    height: 25px;
+    width: 20px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: black;
+    bottom: 13px;
+    left: 23px;
+}
+.eye32{
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    bottom: 28px;
+    left: 25px;
+}
+.eye42{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 100%;
+    border: 2px solid;
+    top: -7px;
+    left: -5px;
+}
+.smile{
+    width:200px;
+	height: 200px;
+	position:absolute;
+	border-color:transparent;
+	border:2px solid transparent;
+	border-bottom-color: black;
+	border-radius:100%;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.smile1{
+    width:200px;
+	height: 200px;
+	position:absolute;
+	border-color:transparent;
+	border:2px solid transparent;
+	border-bottom-color: white;
+	border-radius:  100%;
+	margin-top: 13px;
+	margin-left: 20px;
+    border-width: 3px;
+}
+.smile2{
+    width:100px;
+	height: 200px;
+	position:absolute;
+	border-color:transparent;
+	border:2px solid transparent;
+	border-bottom-color: rgb(196, 196, 11);
+	border-radius:  100%;
+	margin-top: 40px;
+	margin-left: 70px;
+    border-width: 3px;
+}
+.gline{
+    height: 2px;
+    width:13px;
+    background-color: black;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.gline1{
+    height: 2px;
+    width:30px;
+    background-color: black;
+    margin-left: 175px;
+    margin-bottom: 70px;
+}
+.gline2{
+    height: 2px;
+    width:30px;
+    background-color: black;
+    margin-left: -30px;
+    margin-top: -75px;
+}
+.eye2:hover{
+    background-color: aquamarine;
+}
+.face:hover{
+    background-color: red;
+    .smile2{
+        border-bottom-color: red;
+        
+    }
+}
+.n{
+    color: aliceblue;
+}
+
+
